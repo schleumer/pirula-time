@@ -71,7 +71,7 @@ def processData(data):
         if latestHate >= 25000:
             data['latestHateSubjective'] = 'Tá bom! Sou evangélico agora.'
         elif latestHate >= 15000:
-            data['latestHateSubjective'] = 'OK OK! A terra é plana. Satifeitos?'
+            data['latestHateSubjective'] = 'OK OK! A terra é plana. Satisfeitos?'
         elif latestHate >= 7000:
             data['latestHateSubjective'] = 'Se segura que lá vem chumbo!'
         elif latestHate >= 4500:
